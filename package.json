@@ -1,0 +1,24 @@
+{
+  "name": "nodemongo-crud",
+  "version": "1.0.0",
+  "description": "Node Mongo CRUD Operation",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "RestAPI",
+    "Node",
+    "Mongo"
+  ],
+  "author": "Franz Sinaga",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.3",
+    "nodemon": "^2.0.20"
+  }
+}
